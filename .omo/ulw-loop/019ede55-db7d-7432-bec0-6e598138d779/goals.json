@@ -1,0 +1,752 @@
+{
+  "version": 1,
+  "createdAt": "2026-06-19T05:41:19.629Z",
+  "updatedAt": "2026-06-19T05:54:49.403Z",
+  "briefPath": ".omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/brief.md",
+  "goalsPath": ".omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/goals.json",
+  "ledgerPath": ".omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/ledger.jsonl",
+  "codexGoalMode": "aggregate",
+  "goals": [
+    {
+      "id": "G001-rename-plugin-identity-to-vaultforms",
+      "title": "Rename plugin identity to VaultForms.",
+      "objective": "Rename plugin identity to VaultForms.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Rename plugin identity to VaultForms.",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 1.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:30.839Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Rename plugin identity to VaultForms..",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:30.903Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Rename plugin identity to VaultForms..",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:30.963Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.251Z",
+      "completedAt": "2026-06-19T05:53:06.251Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G002-update-package-json-name-to-obsidian",
+      "title": "Update package.json name to obsidian-vaultforms.",
+      "objective": "Update package.json name to obsidian-vaultforms.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Update package.json name to obsidian-vaultforms.",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 2.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.021Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Update package.json name to obsidian-vaultforms..",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.082Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Update package.json name to obsidian-vaultforms..",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.143Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.311Z",
+      "completedAt": "2026-06-19T05:53:06.311Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G003-update-manifest-json",
+      "title": "Update manifest.json:",
+      "objective": "Update manifest.json:",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Update manifest.json:",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 3.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.204Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Update manifest.json:.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.264Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Update manifest.json:.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.326Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.377Z",
+      "completedAt": "2026-06-19T05:53:06.377Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G004-id-vaultforms",
+      "title": "id: vaultforms",
+      "objective": "id: vaultforms",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: id: vaultforms",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 4.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.385Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: id: vaultforms.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.447Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: id: vaultforms.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.506Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.443Z",
+      "completedAt": "2026-06-19T05:53:06.443Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G005-name-vaultforms",
+      "title": "name: VaultForms",
+      "objective": "name: VaultForms",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: name: VaultForms",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 5.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.568Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: name: VaultForms.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.632Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: name: VaultForms.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.711Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.557Z",
+      "completedAt": "2026-06-19T05:53:06.557Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G006-version-0-1-0",
+      "title": "version: 0.1.0",
+      "objective": "version: 0.1.0",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: version: 0.1.0",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 6.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.775Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: version: 0.1.0.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.835Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: version: 0.1.0.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.895Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.612Z",
+      "completedAt": "2026-06-19T05:53:06.612Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G007-minappversion-1-9-10",
+      "title": "minAppVersion: 1.9.10",
+      "objective": "minAppVersion: 1.9.10",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: minAppVersion: 1.9.10",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 7.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:31.959Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: minAppVersion: 1.9.10.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.019Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: minAppVersion: 1.9.10.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.082Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.665Z",
+      "completedAt": "2026-06-19T05:53:06.665Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G008-description-forms-that-turn-your-obs",
+      "title": "description: Forms that turn your Obsidian vault into a structured da...",
+      "objective": "description: Forms that turn your Obsidian vault into a structured database.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: description: Forms that turn your Obsidian vault into a structured database.",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 8.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.145Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: description: Forms that turn your Obsidian vault into a structured database..",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.206Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: description: Forms that turn your Obsidian vault into a structured database..",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.273Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.720Z",
+      "completedAt": "2026-06-19T05:53:06.720Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G009-author-wellnessmaker",
+      "title": "author: wellnessmaker",
+      "objective": "author: wellnessmaker",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: author: wellnessmaker",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 9.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.331Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: author: wellnessmaker.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.387Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: author: wellnessmaker.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.442Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.777Z",
+      "completedAt": "2026-06-19T05:53:06.777Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G010-isdesktoponly-false",
+      "title": "isDesktopOnly: false",
+      "objective": "isDesktopOnly: false",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: isDesktopOnly: false",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 10.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.497Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: isDesktopOnly: false.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.556Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: isDesktopOnly: false.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.620Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.846Z",
+      "completedAt": "2026-06-19T05:53:06.846Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G011-remove-sample-plugin-demo-behavior",
+      "title": "Remove sample plugin demo behavior.",
+      "objective": "Remove sample plugin demo behavior.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Remove sample plugin demo behavior.",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 11.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.681Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Remove sample plugin demo behavior..",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.748Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Remove sample plugin demo behavior..",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.812Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.922Z",
+      "completedAt": "2026-06-19T05:53:06.922Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G012-add-command",
+      "title": "Add command:",
+      "objective": "Add command:",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Add command:",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 12.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.881Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Add command:.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:32.945Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Add command:.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.007Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:06.982Z",
+      "completedAt": "2026-06-19T05:53:06.982Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G013-add-placeholder-settings-tab",
+      "title": "Add placeholder settings tab.",
+      "objective": "Add placeholder settings tab.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Add placeholder settings tab.",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 13.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.068Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Add placeholder settings tab..",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.126Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Add placeholder settings tab..",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.183Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:07.105Z",
+      "completedAt": "2026-06-19T05:53:07.105Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G014-keep-build-working",
+      "title": "Keep build working.",
+      "objective": "Keep build working.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Keep build working.",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 14.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.238Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Keep build working..",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.293Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Keep build working..",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.349Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:07.173Z",
+      "completedAt": "2026-06-19T05:53:07.173Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G015-npm-run-build-passes",
+      "title": "npm run build passes",
+      "objective": "npm run build passes",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: npm run build passes",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 15.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.411Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: npm run build passes.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.473Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: npm run build passes.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.532Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:07.232Z",
+      "completedAt": "2026-06-19T05:53:07.232Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G016-obsidian-loads-plugin",
+      "title": "Obsidian loads plugin",
+      "objective": "Obsidian loads plugin",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: Obsidian loads plugin",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 16.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.594Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: Obsidian loads plugin.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.655Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: Obsidian loads plugin.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.725Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:53:07.297Z",
+      "completedAt": "2026-06-19T05:53:07.297Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    },
+    {
+      "id": "G017-command-palette-shows-vaultforms-com",
+      "title": "command palette shows VaultForms command",
+      "objective": "command palette shows VaultForms command",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "happy path for: command palette shows VaultForms command",
+          "userModel": "happy",
+          "expectedEvidence": "Replace via revise_criterion with observable happy-path proof for goal 17.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.801Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "edge case (boundary/empty/malformed)",
+          "userModel": "edge",
+          "expectedEvidence": "Replace via revise_criterion with boundary or malformed-input proof for: command palette shows VaultForms command.",
+          "essential": true,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.863Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "regression: adjacent surface still works",
+          "userModel": "regression",
+          "expectedEvidence": "Replace via revise_criterion with regression proof for neighboring behavior after: command palette shows VaultForms command.",
+          "essential": false,
+          "capturedEvidence": "artifacts: .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/metadata-loadability.json; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-build.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/npm-run-lint.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsolete-sample-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/vaultforms-command-scan.txt; .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence/obsidian-runtime-smoke.txt | cleanup: no server, tmux, browser, container, port, or temp runtime spawned; worker 019ede67-0eba-7540-8c29-ee06376efa6e closed",
+          "status": "pass",
+          "capturedAt": "2026-06-19T05:49:33.924Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-06-19T05:41:19.629Z",
+      "updatedAt": "2026-06-19T05:54:49.403Z",
+      "completedAt": "2026-06-19T05:54:49.403Z",
+      "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab"
+    }
+  ],
+  "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/ledger.jsonl as the audit trail.",
+  "aggregateCompletion": {
+    "status": "complete",
+    "completedAt": "2026-06-19T05:54:49.403Z",
+    "evidence": "51 criteria pass; evidence artifacts under .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/evidence; npm run build exit 0; npm run lint exit 0; runtime smoke registers open-form-picker command and settings tab",
+    "codexGoal": {
+      "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/019ede55-db7d-7432-bec0-6e598138d779/ledger.jsonl as the audit trail.",
+      "status": "complete"
+    }
+  }
+}

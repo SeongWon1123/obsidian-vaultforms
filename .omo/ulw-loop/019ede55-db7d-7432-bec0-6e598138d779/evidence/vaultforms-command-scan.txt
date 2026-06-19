@@ -1,0 +1,7 @@
+README.md:- In Obsidian, confirm the command palette shows **VaultForms: Open form picker**.
+src\settings.ts:export class VaultFormsSettingTab extends PluginSettingTab {
+src\main.ts:import { VaultFormsSettingTab } from './settings';
+src\main.ts:			id: 'open-form-picker',
+src\main.ts:			name: 'VaultForms: Open form picker',
+src\main.ts:				new Notice('The form picker is not available yet.');
+src\main.ts:		this.addSettingTab(new VaultFormsSettingTab(this.app, this));

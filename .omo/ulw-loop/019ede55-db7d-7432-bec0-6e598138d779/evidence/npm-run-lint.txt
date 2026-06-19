@@ -1,0 +1,6 @@
+COMMAND: npm.cmd run lint
+EXIT: 0
+
+> obsidian-vaultforms@0.1.0 lint
+> eslint .
+

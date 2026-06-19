@@ -1,0 +1,9 @@
+COMMAND: node .omo\ulw-loop\019ede55-db7d-7432-bec0-6e598138d779\evidence\obsidian-runtime-smoke.cjs
+EXIT: 0
+{
+  "commandCount": 1,
+  "commandId": "open-form-picker",
+  "commandName": "VaultForms: Open form picker",
+  "settingTabCount": 1,
+  "notice": "The form picker is not available yet."
+}

@@ -1,0 +1,1 @@
+Obsidian executable not found on PATH; GUI load was not launched in this environment. Loadability proxy: manifest parsed and main.js built.

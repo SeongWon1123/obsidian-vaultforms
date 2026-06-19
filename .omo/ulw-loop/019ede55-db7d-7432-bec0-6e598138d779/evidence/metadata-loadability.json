@@ -1,0 +1,13 @@
+{
+    "PackageName":  "obsidian-vaultforms",
+    "PackageVersion":  "0.1.0",
+    "ManifestId":  "vaultforms",
+    "ManifestName":  "VaultForms",
+    "ManifestVersion":  "0.1.0",
+    "MinAppVersion":  "1.9.10",
+    "Description":  "Forms that turn your Obsidian vault into a structured database.",
+    "Author":  "wellnessmaker",
+    "IsDesktopOnly":  false,
+    "Versions010":  "1.9.10",
+    "MainJsBytes":  1085
+}

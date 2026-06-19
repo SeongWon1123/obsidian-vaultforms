@@ -1,0 +1,1 @@
+No obsolete sample-plugin behavior strings found in package, manifest, versions, README, or src.

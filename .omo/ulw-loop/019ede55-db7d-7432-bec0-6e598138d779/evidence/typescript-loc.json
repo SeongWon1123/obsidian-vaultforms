@@ -1,0 +1,10 @@
+[
+    {
+        "Path":  "src\\main.ts",
+        "PureLoc":  15
+    },
+    {
+        "Path":  "src\\settings.ts",
+        "PureLoc":  14
+    }
+]
